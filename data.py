@@ -92,4 +92,4 @@ def get_volume(ticker: str, start: str, end: str, interval: str = '1d'):
         print(f"An error occurred: {e}")
         return None
 print(get_ticker_history('AAPL', '2023-01-01', '2023-10-01', interval='1wk'))
-print()
+print(get_dividends('CME','2023-01-01', '2023-10-01'))
